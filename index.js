@@ -17,7 +17,7 @@ bot.on("message", (message) => {
 if(message.content === "-youtube") {
 message.channel.send("YouTube.com/c/ModdingTwinz")
  }
- }):
+ });
  
 bot.on("message", (message) => {
 if(message.content === "-discord") {
@@ -25,11 +25,6 @@ message.channel.send("https://discord.gg/u3vqvst")
 }
 });
  
-bot.on("message", (message) => {
-if(message.content === "-help") {
-message.author.send("Commands:\n -ip\n -youtube")
-}
-}); 
 
 bot.on("message", (message) => {
 if(message.content === "-help") {
@@ -38,4 +33,3 @@ message.channel.send(`${message.author.username}` + ", I Have Sent You The Comma
 message.author.send("Commands:\n -ip (TwinFactions)\n -youtube (ModdingTwinz)\n -discord (TwinFactions)\n\n I was created by ``ModdingTwinz#4560`` & also this is beta 1.0")
 }
 });
- 
