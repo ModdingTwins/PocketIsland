@@ -29,7 +29,7 @@ bot.on("message", (message) => {
 if(message.content === "-help") {
 console.log("Log")
 message.channel.send(`${message.author.username}` + ", I Have Sent You The Commands 📪")
-message.author.send("Commands:\n -ip (TwinFactions )\n -youtube (ModdingTwinz")
+message.author.send("Commands:\n -ip (TwinFactions)\n -youtube (ModdingTwinz)\n I was created by ``ModdingTwinz#4560`` I am in beta 1.0")
 }
 });
  
