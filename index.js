@@ -17,7 +17,7 @@ bot.on("message", (message) => {
 if(message.content === "-youtube") {
 message.channel.send("YouTube.com/c/ModdingTwinz")
  
- bot.on("message", (message) => {
+bot.on("message", (message) => {
 if(message.content === "-discord") {
 message.channel.send("https://discord.gg/u3vqvst")
 }
