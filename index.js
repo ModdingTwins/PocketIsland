@@ -24,3 +24,12 @@ if(message.content === "-help") {
 message.author.send("Commands:\n -ip\n -youtube")
 }
 }); 
+
+bot.on("message", (message) => {
+if(message.content === "-help") {
+console.log("Log")
+message.channel.send(`${message.author.username}` + ", I Have Sent You The Commands 📪")
+message.author.send("Commands:\n -ip (TwinFactions )\n -youtube (ModdingTwinz")
+}
+});
+ 
