@@ -6,3 +6,9 @@ console.log(`${bot.user.username}` + "is online")
 bot.user.setActivity("TwinzFactions", {type: "STREAMING"})
 });
 bot.login(process.env.TOKEN)
+
+bot.on("message", (message) => {
+if(message.content === ".ip") {
+message.channel.send("twinfactions.tk : 19132")
+}
+});
