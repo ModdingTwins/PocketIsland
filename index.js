@@ -29,6 +29,6 @@ bot.on("message", (message) => {
 if(message.content === "+help") {
 console.log("Log")
 message.channel.send(`${message.author.username}` + ", I Have Sent You The Commands 📪")
-message.author.send("Commands:\n -ip (TwinFactions)\n -youtube (ModdingTwinz)\n -discord (TwinFactions)\n\n I was created by ``ModdingTwinz#4560`` & also this is beta 1.0")
+message.author.send("Please specify a module that you would like to look up:\n -ip (TwinFactions)\n -youtube (ModdingTwinz)\n -discord (TwinFactions)\n\n I was created by ``ModdingTwinz#4560`` & also this is beta 1.0")
 }
 });
