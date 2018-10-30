@@ -16,6 +16,13 @@ message.channel.send("twinfactions.tk : 19132")
 bot.on("message", (message) => {
 if(message.content === "-youtube") {
 message.channel.send("YouTube.com/c/ModdingTwinz")
+ 
+ bot.on("message", (message) => {
+if(message.content === "-discord") {
+message.channel.send("https://discord.gg/u3vqvst")
+}
+});
+ 
 }
 });
 
@@ -29,7 +36,7 @@ bot.on("message", (message) => {
 if(message.content === "-help") {
 console.log("Log")
 message.channel.send(`${message.author.username}` + ", I Have Sent You The Commands 📪")
-message.author.send("Commands:\n -ip (TwinFactions)\n -youtube (ModdingTwinz)\n\n I was created by ``ModdingTwinz#4560`` & also this is beta 1.0")
+message.author.send("Commands:\n -ip (TwinFactions)\n -youtube (ModdingTwinz)\n -discord (TwinFactions)\n\n I was created by ``ModdingTwinz#4560`` & also this is beta 1.0")
 }
 });
  
