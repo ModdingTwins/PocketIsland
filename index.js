@@ -16,6 +16,8 @@ message.channel.send("twinfactions.tk : 19132")
 bot.on("message", (message) => {
 if(message.content === "-youtube") {
 message.channel.send("YouTube.com/c/ModdingTwinz")
+ }
+ }):
  
 bot.on("message", (message) => {
 if(message.content === "-discord") {
