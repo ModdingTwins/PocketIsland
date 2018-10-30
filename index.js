@@ -18,3 +18,9 @@ if(message.content === "-youtube") {
 message.channel.send("YouTube.com/c/ModdingTwinz")
 }
 });
+
+bot.on("message", (message) => {
+if(message.content === "-help") {
+message.author.send("Commands:\n -ip\n -youtube")
+}
+}); 
