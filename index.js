@@ -5,7 +5,6 @@ console.log(`${bot.user.username}` + "is online")
 
 bot.user.setActivity("TwinFactions.tk | ~help", {type: "STREAMING"})
 });
-bot.login(process.env.TOKEN)
 
 bot.on("message", (message) => {
 if(message.content === "~ip") {
@@ -32,3 +31,4 @@ message.channel.send(`${message.author.username}` + ", I Have Sent You The Comma
 message.author.send("Please specify a module that you would like to look up:\n 1. ~ip ``TwinFactions Server Ip & Port``\n 2. ~youtube ``Subscribe To ModdingTwinz Channel``\n 3. ~discord ``Join us on TwinFactions & Have Fun!``\n\n Powered By ``ModdingTwinz#4560``")
 }
 });
+bot.login(process.env.TOKEN)
