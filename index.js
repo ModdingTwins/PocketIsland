@@ -35,6 +35,6 @@ bot.on("message", (message) => {
 if(message.content === "~help") {
 console.log("Log")
 message.channel.send(`${message.author.username}` + ", I Have Sent You The Commands 📪")
-message.author.send("Please specify a module that you would like to look up:\n 1. ~ip ``PocketIsland Server Ip & Port``\n 2. ~youtube ``Subscribe To ModdingTwinz Channel``\n 3. ~discord ``Join us on PocketIsland & Have Fun!``\n ~shop ``Buy The Server Ranks & Enjoy The Fun``\n\n Powered By ``ModdingTwinz#4560``")
+message.author.send("Please specify a module that you would like to look up:\n 1. ~ip ``PocketIsland Server Ip & Port``\n 2. ~youtube ``Subscribe To ModdingTwinz Channel``\n 3. ~discord ``Join us on PocketIsland & Have Fun!``\n 4. ~shop ``Buy The Server Ranks & Enjoy The Fun``\n\n Powered By ``ModdingTwinz#4560``")
 }
 });
