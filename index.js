@@ -26,12 +26,6 @@ message.channel.send("https://discord.gg/u3vqvst")
 });
 
 bot.on("message", (message) => {
-if(message.content === "~shop") {
-message.channel.send("https://pocketislandpe.buycraft.net/")
-}
-});
- 
-bot.on("message", (message) => {
 if(message.content === "~help") {
 console.log("Log")
 message.channel.send(`${message.author.username}` + ", I Have Sent You The Commands 📪")
