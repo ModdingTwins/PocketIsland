@@ -1,2 +1,2 @@
-# ★ System
-TwinFactions
+# ★ PocketIsland
+PocketISland Discord Bot!
